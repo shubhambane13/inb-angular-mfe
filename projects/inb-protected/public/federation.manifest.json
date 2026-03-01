@@ -1,0 +1,4 @@
+{
+	"inb-admin": "http://localhost:1203/remoteEntry.json",
+	"inb-customer": "http://localhost:1204/remoteEntry.json"
+}
