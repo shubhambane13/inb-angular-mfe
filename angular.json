@@ -49,10 +49,12 @@
 						"assets": [
 							{
 								"glob": "**/*",
-								"input": "projects/inb-main/public"
+								"input": "projects/assets",
+								"output": "/"
 							}
 						],
 						"styles": [
+							"projects/assets/styles/styles.scss",
 							"projects/inb-main/src/styles.scss"
 						]
 					}
@@ -66,10 +68,12 @@
 						"assets": [
 							{
 								"glob": "**/*",
-								"input": "projects/inb-main/public"
+								"input": "projects/assets",
+								"output": "/"
 							}
 						],
 						"styles": [
+							"projects/assets/styles/styles.scss",
 							"projects/inb-main/src/styles.scss"
 						],
 						"polyfills": [
@@ -163,10 +167,12 @@
 						"assets": [
 							{
 								"glob": "**/*",
-								"input": "projects/inb-auth/public"
+								"input": "projects/assets",
+								"output": "/"
 							}
 						],
 						"styles": [
+							"projects/assets/styles/styles.scss",
 							"projects/inb-auth/src/styles.scss"
 						]
 					}
@@ -180,10 +186,12 @@
 						"assets": [
 							{
 								"glob": "**/*",
-								"input": "projects/inb-auth/public"
+								"input": "projects/assets",
+								"output": "/"
 							}
 						],
 						"styles": [
+							"projects/assets/styles/styles.scss",
 							"projects/inb-auth/src/styles.scss"
 						],
 						"polyfills": [
@@ -277,10 +285,12 @@
 						"assets": [
 							{
 								"glob": "**/*",
-								"input": "projects/inb-protected/public"
+								"input": "projects/assets",
+								"output": "/"
 							}
 						],
 						"styles": [
+							"projects/assets/styles/styles.scss",
 							"projects/inb-protected/src/styles.scss"
 						]
 					}
@@ -294,10 +304,12 @@
 						"assets": [
 							{
 								"glob": "**/*",
-								"input": "projects/inb-protected/public"
+								"input": "projects/assets",
+								"output": "/"
 							}
 						],
 						"styles": [
+							"projects/assets/styles/styles.scss",
 							"projects/inb-protected/src/styles.scss"
 						],
 						"polyfills": [
@@ -391,10 +403,12 @@
 						"assets": [
 							{
 								"glob": "**/*",
-								"input": "projects/inb-admin/public"
+								"input": "projects/assets",
+								"output": "/"
 							}
 						],
 						"styles": [
+							"projects/assets/styles/styles.scss",
 							"projects/inb-admin/src/styles.scss"
 						]
 					}
@@ -408,10 +422,12 @@
 						"assets": [
 							{
 								"glob": "**/*",
-								"input": "projects/inb-admin/public"
+								"input": "projects/assets",
+								"output": "/"
 							}
 						],
 						"styles": [
+							"projects/assets/styles/styles.scss",
 							"projects/inb-admin/src/styles.scss"
 						],
 						"polyfills": [
@@ -505,10 +521,12 @@
 						"assets": [
 							{
 								"glob": "**/*",
-								"input": "projects/inb-customer/public"
+								"input": "projects/assets",
+								"output": "/"
 							}
 						],
 						"styles": [
+							"projects/assets/styles/styles.scss",
 							"projects/inb-customer/src/styles.scss"
 						]
 					}
@@ -522,10 +540,12 @@
 						"assets": [
 							{
 								"glob": "**/*",
-								"input": "projects/inb-customer/public"
+								"input": "projects/assets",
+								"output": "/"
 							}
 						],
 						"styles": [
+							"projects/assets/styles/styles.scss",
 							"projects/inb-customer/src/styles.scss"
 						],
 						"polyfills": [
