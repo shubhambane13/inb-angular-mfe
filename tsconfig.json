@@ -5,6 +5,11 @@
   "compilerOptions": {
     "strict": true,
     "noImplicitOverride": true,
+    "paths": {
+      "inb-common-lib": [
+        "./projects/inb-common-lib/src/public-api.ts"
+      ]
+    },
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
@@ -53,6 +58,12 @@
     },
     {
       "path": "./projects/inb-customer/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/inb-common-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/inb-common-lib/tsconfig.spec.json"
     }
   ]
 }

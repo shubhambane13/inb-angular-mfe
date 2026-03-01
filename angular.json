@@ -592,6 +592,32 @@
 					}
 				}
 			}
-		}
+    },
+    "inb-common-lib": {
+      "projectType": "library",
+      "root": "projects/inb-common-lib",
+      "sourceRoot": "projects/inb-common-lib/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/inb-common-lib/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/inb-common-lib/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:karma",
+          "options": {
+            "tsConfig": "projects/inb-common-lib/tsconfig.spec.json"
+          }
+        }
+      }
+    }
 	}
 }

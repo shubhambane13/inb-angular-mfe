@@ -57,3 +57,25 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Project creation steps
+ng new inb-workspace --create-application=false
+cd inb-workspace
+
+ng generate application main-host --prefix inb-main
+ng generate application auth-remote --prefix inb-auth
+ng generate application protected-remote --prefix inb-protected
+ng generate application admin --prefix inb-admin
+ng generate application customer --prefix inb-customer
+
+npm install -D @angular-architects/native-federation
+
+ng g @angular-architects/native-federation:init --project main-host --port 4200 --type dynamic-host
+
+ng g @angular-architects/native-federation:init --project auth-remote --port 4201 --type remote
+ng g @angular-architects/native-federation:init --project admin --port 4203 --type remote
+ng g @angular-architects/native-federation:init --project customer --port 4204 --type remote
+
+ng g @angular-architects/native-federation:init --project protected-remote --port 4202 --type dynamic-host
+
