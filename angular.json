@@ -87,6 +87,7 @@
 							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						],
 						"polyfills": [
+							"zone.js",
 							"es-module-shims"
 						]
 					},
@@ -215,6 +216,7 @@
 							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						],
 						"polyfills": [
+							"zone.js",
 							"es-module-shims"
 						]
 					},
@@ -343,6 +345,7 @@
 							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						],
 						"polyfills": [
+							"zone.js",
 							"es-module-shims"
 						]
 					},
@@ -471,6 +474,7 @@
 							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						],
 						"polyfills": [
+							"zone.js",
 							"es-module-shims"
 						]
 					},
@@ -599,6 +603,7 @@
 							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						],
 						"polyfills": [
+							"zone.js",
 							"es-module-shims"
 						]
 					},

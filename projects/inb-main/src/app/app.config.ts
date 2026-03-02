@@ -1,6 +1,7 @@
-import { APP_INITIALIZER, ApplicationConfig, provideBrowserGlobalErrorListeners, provideZonelessChangeDetection } from '@angular/core';
+import { APP_INITIALIZER, ApplicationConfig, importProvidersFrom, provideBrowserGlobalErrorListeners, provideZoneChangeDetection, provideZonelessChangeDetection } from '@angular/core';
 import { provideRouter, withHashLocation } from '@angular/router';
 import { AppConfigService, HttpInterceptor } from 'inb-common-lib';
+import { MatNativeDateModule } from '@angular/material/core';
 
 import { routes } from './app.routes';
 import { provideHttpClient, withInterceptors } from '@angular/common/http';
@@ -13,7 +14,7 @@ export function initConfig(appConfig: AppConfigService) {
 export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
-    provideZonelessChangeDetection(),
+    importProvidersFrom(MatNativeDateModule),
     provideRouter(routes, withHashLocation()),
     provideHttpClient(withInterceptors([HttpInterceptor])),
     {

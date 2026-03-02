@@ -15,7 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { GlobalService, GlobalTableComponent, GlobalTableData, TableColumn } from 'inb-common-lib';
 import { PageEvent } from '@angular/material/paginator';
 import { Sort } from '@angular/material/sort';
-import { MatNativeDateModule } from '@angular/material/core';
+import { MatNativeDateModule, provideNativeDateAdapter } from '@angular/material/core';
 
 @Component({
   selector: 'app-account-statement',
