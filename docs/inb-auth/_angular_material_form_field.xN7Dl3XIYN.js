@@ -1,0 +1,17 @@
+import { a as t, b as o, c as r, d as i, e, f as a, g as n, h as m, i as s, j as l, k as p, l as F, m as M, n as f, o as d, p as y } from "@nf-internal/chunk-WYLMCG44";
+import "@nf-internal/chunk-5KSFOI5Q";
+import "@nf-internal/chunk-RXMLTE5A";
+import "@nf-internal/chunk-4CLCTAJ7";
+import "@angular/cdk/a11y";
+import "@angular/cdk/bidi";
+import "@angular/cdk/coercion";
+import "@angular/cdk/platform";
+import "@angular/common";
+import "@angular/core";
+import "rxjs";
+import "rxjs/operators";
+import "@angular/cdk/observers/private";
+import "@angular/cdk/layout";
+import "@angular/cdk/observers";
+var D = { transitionMessages: { type: 7, name: "transitionMessages", definitions: [{ type: 0, name: "enter", styles: { type: 6, styles: { opacity: 1, transform: "translateY(0%)" }, offset: null } }, { type: 1, expr: "void => enter", animation: [{ type: 6, styles: { opacity: 0, transform: "translateY(-5px)" }, offset: null }, { type: 4, styles: null, timings: "300ms cubic-bezier(0.55, 0, 0.55, 0.2)" }], options: null }], options: {} } };
+export { o as MAT_ERROR, M as MAT_FORM_FIELD, f as MAT_FORM_FIELD_DEFAULT_OPTIONS, e as MAT_PREFIX, n as MAT_SUFFIX, r as MatError, d as MatFormField, s as MatFormFieldControl, y as MatFormFieldModule, i as MatHint, t as MatLabel, a as MatPrefix, m as MatSuffix, p as getMatFormFieldDuplicatedHintError, F as getMatFormFieldMissingControlError, l as getMatFormFieldPlaceholderConflictError, D as matFormFieldAnimations };

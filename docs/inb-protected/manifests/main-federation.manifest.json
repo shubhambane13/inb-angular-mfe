@@ -1,0 +1,6 @@
+{
+	"inb-auth": "http://localhost:1201/remoteEntry.json",
+	"inb-protected": "http://localhost:1202/remoteEntry.json",
+	"inb-admin": "http://localhost:1203/remoteEntry.json",
+	"inb-customer": "http://localhost:1204/remoteEntry.json"
+}
