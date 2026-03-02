@@ -16,7 +16,7 @@ export class GlobalService {
 
   
   private _user = signal<any>({});
-  user = this._token.asReadonly();
+  user = this._user.asReadonly();
   setUser(user: any) {
     this._user.set(user);
   }

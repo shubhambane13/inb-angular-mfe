@@ -54,7 +54,7 @@ export class AdminLoginComponent {
           if(res.success) {
             this._globalService.setToken(res.jwtToken);
             this._globalService.setUser(res.user);
-            this.router.navigate(['/admin']);
+            this.router.navigate(['/portal/admin']);
           }
         });
     }

@@ -8,14 +8,14 @@ export const routes: Routes = [
     component: ProtectedLayout,
     children: [
       {
-        path: 'inb-admin',
-        loadComponent: () =>
-          loadRemoteModule('inb-admin', './Component').then((c) => c.AdminPortal),
+        path: 'admin',
+        loadChildren: () =>
+          loadRemoteModule('inb-admin', './Routes').then((c) => c.routes),
       },
       {
-        path: 'inb-customer',
-        loadComponent: () =>
-          loadRemoteModule('inb-customer', './Component').then((c) => c.CustomerPortal),
+        path: 'customer',
+        loadChildren: () =>
+          loadRemoteModule('inb-customer', './Routes').then((c) => c.routes),
       },
     ],
   },

@@ -6,7 +6,10 @@ module.exports = withNativeFederation({
 
 
   exposes: {
-    './Component': './projects/inb-customer/src/app/app.ts',
+  },
+  exposes: {
+    // './Component': './projects/inb-customer/src/app/app.ts',
+    './Routes': './projects/inb-customer/src/app/app.routes.ts',
   },
 
   shared: {

@@ -47,7 +47,7 @@ export class LoginComponent implements OnInit {
         if(res.success) {
             this._globalService.setToken(res.jwtToken);
             this._globalService.setUser(res.user);
-          this.router.navigate(['/portal']);
+          this.router.navigate(['/portal/customer']);
         }
       });
     }

@@ -7,8 +7,8 @@ export const routes: Routes = [
     loadChildren: () => loadRemoteModule('inb-auth', './Routes').then(c => c.routes),
   },
   {
-    path: 'inb-protected',
+    path: 'portal',
     loadChildren: () => loadRemoteModule('inb-protected', './Routes').then(m => m.routes),
   },
-  { path: '**', redirectTo: 'auth', pathMatch: 'full' },
+  // { path: '**', redirectTo: 'auth', pathMatch: 'full' },
 ];
