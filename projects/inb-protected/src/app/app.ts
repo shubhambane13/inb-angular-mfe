@@ -9,7 +9,7 @@ import { AuthService } from 'inb-common-lib';
   styleUrl: './app.scss',
   standalone: true
 })
-export class App {
+export class ProtectedLayout {
   protected readonly title = signal('inb-protected');
   public auth = inject(AuthService);
   ngOnInit() {

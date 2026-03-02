@@ -3,11 +3,12 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: 'inb-auth',
-    loadComponent: () => loadRemoteModule('inb-auth', './Component').then(c => c.App),
+    path: 'auth',
+    loadChildren: () => loadRemoteModule('inb-auth', './Routes').then(c => c.routes),
   },
   {
     path: 'inb-protected',
     loadChildren: () => loadRemoteModule('inb-protected', './Routes').then(m => m.routes),
   },
+  { path: '**', redirectTo: 'auth', pathMatch: 'full' },
 ];

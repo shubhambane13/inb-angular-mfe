@@ -54,8 +54,13 @@
 							}
 						],
 						"styles": [
+              				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+			                "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/assets/styles/styles.scss",
 							"projects/inb-main/src/styles.scss"
+						],
+						"scripts": [
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						]
 					}
 				},
@@ -73,8 +78,13 @@
 							}
 						],
 						"styles": [
+              				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+			                "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/assets/styles/styles.scss",
 							"projects/inb-main/src/styles.scss"
+						],
+						"scripts": [
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						],
 						"polyfills": [
 							"es-module-shims"
@@ -172,8 +182,13 @@
 							}
 						],
 						"styles": [
+              				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+			                "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/assets/styles/styles.scss",
 							"projects/inb-auth/src/styles.scss"
+						],
+						"scripts": [
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						]
 					}
 				},
@@ -191,8 +206,13 @@
 							}
 						],
 						"styles": [
+              				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+			                "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/assets/styles/styles.scss",
 							"projects/inb-auth/src/styles.scss"
+						],
+						"scripts": [
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						],
 						"polyfills": [
 							"es-module-shims"
@@ -290,8 +310,13 @@
 							}
 						],
 						"styles": [
+              				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+			                "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/assets/styles/styles.scss",
 							"projects/inb-protected/src/styles.scss"
+						],
+						"scripts": [
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						]
 					}
 				},
@@ -309,8 +334,13 @@
 							}
 						],
 						"styles": [
+              				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+			                "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/assets/styles/styles.scss",
 							"projects/inb-protected/src/styles.scss"
+						],
+						"scripts": [
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						],
 						"polyfills": [
 							"es-module-shims"
@@ -408,8 +438,13 @@
 							}
 						],
 						"styles": [
+              				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+			                "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/assets/styles/styles.scss",
 							"projects/inb-admin/src/styles.scss"
+						],
+						"scripts": [
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						]
 					}
 				},
@@ -427,8 +462,13 @@
 							}
 						],
 						"styles": [
+              				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+			                "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/assets/styles/styles.scss",
 							"projects/inb-admin/src/styles.scss"
+						],
+						"scripts": [
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						],
 						"polyfills": [
 							"es-module-shims"
@@ -526,8 +566,13 @@
 							}
 						],
 						"styles": [
+              				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+			                "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/assets/styles/styles.scss",
 							"projects/inb-customer/src/styles.scss"
+						],
+						"scripts": [
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						]
 					}
 				},
@@ -545,8 +590,13 @@
 							}
 						],
 						"styles": [
+              				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+			                "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/assets/styles/styles.scss",
 							"projects/inb-customer/src/styles.scss"
+						],
+						"scripts": [
+							"node_modules/bootstrap/dist/js/bootstrap.min.js"
 						],
 						"polyfills": [
 							"es-module-shims"

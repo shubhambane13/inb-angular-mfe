@@ -5,8 +5,12 @@ module.exports = withNativeFederation({
 
 
 
+  // exposes: {
+  //   './Component': './projects/inb-auth/src/app/app.ts',
+  // },
   exposes: {
-    './Component': './projects/inb-auth/src/app/app.ts',
+    // './Component': './projects/inb-protected/src/app/app.ts',
+    './Routes': './projects/inb-auth/src/app/app.routes.ts',
   },
 
   shared: {

@@ -8,8 +8,9 @@ import { GlobalService } from 'inb-common-lib';
   selector: 'app-root',
   imports: [RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrl: './app.scss',
+  standalone: true
 })
-export class App {
+export class AuthLayout {
   protected readonly title = signal('inb-auth');
 }
